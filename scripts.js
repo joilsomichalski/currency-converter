@@ -22,18 +22,16 @@ try{
     const convertedValue = (amount.value * rate).toFixed(2)
 
     convertedAmount.value = convertedValue
-        
-    result.innerHTML = `
-        <div> 
-            ${amount.value} ${fromCurrency.value} = ${convertedAmount} ${toCurrency.value}
-        </div>
-    `
+    loading.style.display = "block"
+
+
 
 }
 
 catch(error){
     alert("Falha no SERVIDOR")
 }
+ loading.style.display = "none"
 
 }
 
