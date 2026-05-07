@@ -32,11 +32,7 @@ A aplicação permite informar um valor, escolher a moeda de origem e a moeda de
 
 ## Tecnologias utilizadas
 
-- HTML5
-- CSS3
-- JavaScript
-- Fetch API
-- ExchangeRate API
+**HTML5** | **CSS3** | **JavaScript** | **Fetch API** | **ExchangeRate API**
 
 ## Conceitos praticados
 
