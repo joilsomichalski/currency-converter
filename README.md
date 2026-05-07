@@ -1,10 +1,10 @@
 # Currency Converter
 
-Conversor de moedas desenvolvido com HTML, CSS e JavaScript. A aplicação permite informar um valor, escolher a moeda de origem e a moeda de destino, consultando uma API de cotação para calcular o valor convertido.
+Conversor de moedas desenvolvido com **HTML**, **CSS** e **JavaScript**, consumindo uma API externa de câmbio para calcular valores em tempo real.
 
-## Visualização
+## Visão geral
 
-Para visualizar o projeto localmente, basta abrir o arquivo `index.html` no navegador.
+A aplicação permite informar um valor, escolher a moeda de origem e a moeda de destino, consultar a cotação atual e exibir o resultado convertido na tela. O projeto demonstra manipulação do DOM, eventos de formulário, funções assíncronas e consumo de API.
 
 ## Funcionalidades
 
@@ -14,10 +14,10 @@ Para visualizar o projeto localmente, basta abrir o arquivo `index.html` no nave
 - Seleção de moeda de destino
 - Consulta de cotação via API
 - Indicador de carregamento durante a busca
-- Campo de resultado somente para leitura
+- Resultado exibido em campo somente leitura
 - Tratamento básico de erro em caso de falha na consulta
 
-## Moedas Disponíveis
+## Moedas disponíveis
 
 - BRL - Real
 - USD - Dólar
@@ -30,7 +30,7 @@ Para visualizar o projeto localmente, basta abrir o arquivo `index.html` no nave
 - CNY - Yuan
 - ARS - Peso Argentino
 
-## Tecnologias Utilizadas
+## Tecnologias utilizadas
 
 - HTML5
 - CSS3
@@ -38,7 +38,16 @@ Para visualizar o projeto localmente, basta abrir o arquivo `index.html` no nave
 - Fetch API
 - ExchangeRate API
 
-## Como Executar
+## Conceitos praticados
+
+- Manipulação do DOM
+- Eventos de formulário
+- `async` e `await`
+- Requisições HTTP com `fetch`
+- Tratamento de carregamento e erro
+- Organização de lógica em JavaScript
+
+## Como executar
 
 ```bash
 git clone https://github.com/joilsomichalski/currency-converter.git
@@ -47,7 +56,7 @@ cd currency-converter
 
 Depois, abra o arquivo `index.html` no navegador.
 
-## Estrutura do Projeto
+## Estrutura do projeto
 
 ```text
 currency-converter/
@@ -56,17 +65,13 @@ currency-converter/
 └── scripts.js
 ```
 
-## Aprendizados
+## Melhorias planejadas
 
-Neste projeto, pratiquei manipulação do DOM, eventos de formulário, funções assíncronas com `async/await`, consumo de API externa e exibição dinâmica de resultados.
-
-## Melhorias Futuras
-
+- Publicar uma demonstração online
 - Formatar o resultado com `Intl.NumberFormat`
 - Adicionar botão para inverter as moedas
 - Exibir a taxa de conversão utilizada
-- Melhorar a exibição de mensagens de erro
-- Publicar o projeto com GitHub Pages, Netlify ou Vercel
+- Melhorar mensagens de erro para o usuário
 
 ## Autor
 
